@@ -5,10 +5,10 @@ Toca el tema de Marshmello-Alone mientras ejecutas otro comando para no esperar 
 ```
 npm install -g valerio-gomez
 
-benny-hill # Solo toca la musica
-benny-hill sleep 10 # Toca solo 10 segundos
-benny-hill make # Cuando esta compilando
-benny-hill npm install -g dat # Instalando modulos de Node
+valerio-gomez                     # Solo toca la musica
+valerio-gomez sleep 10            # Toca solo 10 segundos
+valerio-gomez make                # Cuando esta compilando
+valerio-gomez npm install -g dat  # Instalando modulos de Node
 ```
 
 ## Servidores Linux
