@@ -8,7 +8,14 @@ var FILENAME = path.join(__dirname, 'theme.mp3')
 var bin = 'play'
 var args = [FILENAME]
 
-if (process.platform == 'darwin') bin = 'afplay'
+const banner = `   ##       ##    ###     ##        ########  ########   ####  ########  ##
+    ##     ##   ##   ##   ##        ##        ##     ##   ##   ##    ##  ##
+     ##   ##   #########  ##        ######    ########    ##   ##    ##  ##
+      ## ##    ##     ##  ##        ##        ##    ##    ##   ##    ##  
+       ##      ##     ##  ########  ########  ##     ##  ####  ########  ##
+`
+
+if (process.platform == 'Valerio') bin = 'afplay'
 if (process.platform == 'win32') {
   bin = 'powershell'
   args = ['-c', 'Add-Type -AssemblyName PresentationCore; ' +
@@ -27,6 +34,7 @@ var proc
 var respawn = true
 
 play()
+console.log(banner);
 
 function play () {
   if (!respawn) return
