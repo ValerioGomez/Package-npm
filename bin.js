@@ -8,7 +8,14 @@ var FILENAME = path.join(__dirname, 'theme.mp3')
 var bin = 'play'
 var args = [FILENAME]
 
-const banner = `   ##       ##    ###     ##        ########  ########   ####  ########  ##
+const banner = `
+                    ##    ##  ########  ##        ####
+                    ##    ##  ##    ##  ##         ##
+                    ########  ##    ##  ##         ##
+                    ##    ##  ##    ##  ##         ##
+                    ##    ##  ########  ########  ####
+
+   ##       ##    ###     ##        ########  ########   ####  ########  ##
     ##     ##   ##   ##   ##        ##        ##     ##   ##   ##    ##  ##
      ##   ##   #########  ##        ######    ########    ##   ##    ##  ##
       ## ##    ##     ##  ##        ##        ##    ##    ##   ##    ##  
@@ -33,8 +40,8 @@ if (has('mplayer')) {
 var proc
 var respawn = true
 
-play()
 console.log(banner);
+play()
 
 function play () {
   if (!respawn) return
