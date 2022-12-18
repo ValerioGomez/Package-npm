@@ -18,7 +18,7 @@ Primero, asegurate de instalar las siguientes dependencias en Linux
 ```
 sudo apt-get install sox libsox-fmt-mp3
 ```
-Otra manera, puede instalar mplayer y solo lo usará primero si está en Linux
+Puede instalar mplayer y solo lo usará primero si está en Linux
 
 ## Licencia
 
