@@ -22,5 +22,6 @@ Puede instalar mplayer y solo lo usará primero si está en Linux
 
 ## Licencia
 
-MIT
+MIT,licencia libre
+
 
